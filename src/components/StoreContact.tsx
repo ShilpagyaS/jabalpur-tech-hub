@@ -101,7 +101,7 @@ const StoreContact = () => {
             className="rounded-lg overflow-hidden shadow-subtle border border-white/5 min-h-[400px]"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.5!2d79.9489!3d23.1687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDEwJzA3LjMiTiA3OcKwNTYnNTYuMCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.0646417559694!2d79.92284236638683!3d23.1607612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae03e8a31df5%3A0x3c96859a9985d673!2sMicroland%20Computers!5e0!3m2!1sen!2sin!4v1773689273533!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 400, filter: "invert(90%) hue-rotate(180deg)" }}
