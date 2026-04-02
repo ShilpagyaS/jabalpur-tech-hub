@@ -22,7 +22,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-2 group">
           <Cpu className="w-7 h-7 text-primary" strokeWidth={1.5} />
           <span className="font-bold text-lg tracking-tight">
-            Micro<span className="text-primary">land</span>
+            Micro<span className="text-primary">land</span> Computers
           </span>
         </a>
 
