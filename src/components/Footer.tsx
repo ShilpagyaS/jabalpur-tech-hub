@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <Cpu className="w-5 h-5 text-primary" strokeWidth={1.5} />
-              <span className="font-bold">Micro<span className="text-primary">land</span></span>
+              <span className="font-bold">Micro<span className="text-primary">land</span> Computers</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
               Jabalpur's most trusted computer store. Gaming PCs, workstations, laptops, and custom builds.
