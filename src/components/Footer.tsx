@@ -1,4 +1,4 @@
-import { Cpu, Phone, MessageCircle, MapPin, Instagram, Facebook, Youtube, Twitter } from "lucide-react";
+import { Cpu, Phone, MessageCircle, MapPin, Instagram, Facebook, Youtube, Star } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/919827065718";
 const PHONE_URL = "tel:+919827065718";
@@ -49,10 +49,10 @@ const Footer = () => {
         <div className="border-t border-white/5 pt-6 text-center">
           <div className="flex justify-center gap-4 mb-4">
             {[
-              { icon: Instagram, href: "https://www.instagram.com/microlandcomputer", label: "Instagram", color: "hover:text-pink-400" },
-              { icon: Facebook, href: "https://www.facebook.com/microlandcomputer", label: "Facebook", color: "hover:text-blue-400" },
+              { icon: Instagram, href: "https://www.instagram.com/microland_computers2/", label: "Instagram", color: "hover:text-pink-400" },
+              { icon: Facebook, href: "https://www.facebook.com/people/Microland-Computers/100064047575061/", label: "Facebook", color: "hover:text-blue-400" },
               { icon: Youtube, href: "https://www.youtube.com/@microlandcomputer", label: "YouTube", color: "hover:text-red-400" },
-              { icon: Twitter, href: "https://twitter.com/microlandcomp", label: "Twitter / X", color: "hover:text-sky-400" },
+              { icon: Star, href: "https://www.justdial.com/Jabalpur/Microland-Computers-Jiomart-Digital-Partner-Near-Ashish-Hospital-Madan-Mahal/9999PX761-X761-160919160402-D1U9_BZDET", label: "JustDial", color: "hover:text-yellow-400" },
             ].map(({ icon: Icon, href, label, color }) => (
               <a
                 key={label}
