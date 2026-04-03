@@ -1,4 +1,4 @@
-import { Cpu, Phone, MessageCircle, MapPin } from "lucide-react";
+import { Cpu, Phone, MessageCircle, MapPin, Instagram, Facebook, Youtube, Twitter } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/919827065718";
 const PHONE_URL = "tel:+919827065718";
