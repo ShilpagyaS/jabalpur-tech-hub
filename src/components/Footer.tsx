@@ -47,6 +47,25 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/5 pt-6 text-center">
+          <div className="flex justify-center gap-4 mb-4">
+            {[
+              { icon: Instagram, href: "https://www.instagram.com/microlandcomputer", label: "Instagram", color: "hover:text-pink-400" },
+              { icon: Facebook, href: "https://www.facebook.com/microlandcomputer", label: "Facebook", color: "hover:text-blue-400" },
+              { icon: Youtube, href: "https://www.youtube.com/@microlandcomputer", label: "YouTube", color: "hover:text-red-400" },
+              { icon: Twitter, href: "https://twitter.com/microlandcomp", label: "Twitter / X", color: "hover:text-sky-400" },
+            ].map(({ icon: Icon, href, label, color }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className={`w-9 h-9 flex items-center justify-center rounded-full glass text-muted-foreground ${color} transition-all duration-200 hover:scale-110`}
+              >
+                <Icon className="w-4 h-4" strokeWidth={1.5} />
+              </a>
+            ))}
+          </div>
           <p className="text-xs text-muted-foreground">
             Best price guaranteed in Jabalpur · Custom PCs built for your needs
           </p>
