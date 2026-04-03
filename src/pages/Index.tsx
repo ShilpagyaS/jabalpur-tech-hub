@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import StoreContact from "@/components/StoreContact";
 import Footer from "@/components/Footer";
 import StickyContact from "@/components/StickyContact";
+import SocialFloat from "@/components/SocialFloat";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <StoreContact />
       <Footer />
       <StickyContact />
+      <SocialFloat />
     </div>
   );
 };
