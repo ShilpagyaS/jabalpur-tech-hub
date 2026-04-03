@@ -71,7 +71,7 @@ const Footer = () => {
               },
               {
                 label: "YouTube",
-                href: "https://www.youtube.com/@microlandcomputer",
+                href: "https://youtube.com/@microland_computers2?si=W9FSwVmTUPkB0f5Z",
                 gradient: "from-red-600 to-red-700",
                 icon: (
                   <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white">
