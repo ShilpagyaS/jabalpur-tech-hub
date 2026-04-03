@@ -61,7 +61,7 @@ const Footer = () => {
               },
               {
                 label: "Facebook",
-                href: "https://www.facebook.com/people/Microland-Computers/100064047575061/",
+                href: "https://www.facebook.com/profile.php?id=100064047575061",
                 gradient: "from-blue-600 to-blue-700",
                 icon: (
                   <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white">
