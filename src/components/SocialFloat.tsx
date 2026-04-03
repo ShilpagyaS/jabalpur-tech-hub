@@ -39,7 +39,7 @@ const socials = [
 
 const youtubeEntry = {
   label: "YouTube",
-  href: "https://youtube.com/@microland_computers2?si=W9FSwVmTUPkB0f5Z",
+  href: "https://youtube.com/@microland_computers2/shorts?si=W9FSwVmTUPkB0f5Z",
   color: "from-red-600 to-red-700",
   hoverShadow: "hover:shadow-[0_0_20px_rgba(239,68,68,0.5)]",
   icon: (
