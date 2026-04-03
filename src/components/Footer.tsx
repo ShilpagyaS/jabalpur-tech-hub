@@ -79,16 +79,20 @@ const Footer = () => {
                   </svg>
                 ),
               },
-              {
-                label: "JustDial",
-                href: "https://www.justdial.com/Jabalpur/Microland-Computers-Jiomart-Digital-Partner-Near-Ashish-Hospital-Madan-Mahal/9999PX761-X761-160919160402-D1U9_BZDET",
-                gradient: "from-yellow-500 to-orange-500",
-                icon: (
-                  <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white">
-                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z" />
-                  </svg>
-                ),
-              },
+
+{
+  label: "JustDial",
+  href: "https://www.justdial.com/Jabalpur/Microland-Computers-Jiomart-Digital-Partner-Near-Ashish-Hospital-Madan-Mahal/9999PX761-X761-160919160402-D1U9_BZDET",
+  gradient: "from-yellow-500 to-orange-500",
+  icon: (
+    <img
+      src="/justdial.png"
+      alt="JustDial"
+      className="w-7 h-7 object-contain"
+    />
+  ),
+}
+          ,
             ].map(({ label, href, gradient, icon }) => (
               <a
                 key={label}
