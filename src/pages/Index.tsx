@@ -29,6 +29,7 @@ const Index = () => {
       <StoreContact />
       <Footer />
       <StickyContact />
+      <SocialFloat />
     </div>
   );
 };
