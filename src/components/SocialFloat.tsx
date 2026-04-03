@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const socials = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/microland_computers2/",
+    href: "https://www.instagram.com/microland_computers2?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     color: "from-pink-500 to-purple-600",
     hoverShadow: "hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]",
     icon: (
@@ -14,7 +14,7 @@ const socials = [
   },
   {
     label: "Facebook",
-    href: "https://www.facebook.com/people/Microland-Computers/100064047575061/",
+    href: "https://www.facebook.com/profile.php?id=100064047575061",
     color: "from-blue-600 to-blue-700",
     hoverShadow: "hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]",
     icon: (
