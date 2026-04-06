@@ -7,7 +7,6 @@ import ProductCategories from "@/components/ProductCategories";
 import DealsBanner from "@/components/DealsBanner";
 import PCConfigurator from "@/components/PCConfigurator";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import StoreContact from "@/components/StoreContact";
 import Footer from "@/components/Footer";
@@ -26,7 +25,6 @@ const Index = () => {
       <DealsBanner />
       <PCConfigurator />
       <WhyChooseUs />
-      <Gallery />
       <Testimonials />
       <StoreContact />
       <Footer />
