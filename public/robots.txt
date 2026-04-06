@@ -1,7 +1,13 @@
 User-agent: *
 Allow: /
+
+# Block sensitive
 Disallow: /admin
 Disallow: /api
 Disallow: /private
+
+# Allow important assets
+Allow: /images/
+Allow: /videos/
 
 Sitemap: https://microlandcomputer.in/sitemap.xml
