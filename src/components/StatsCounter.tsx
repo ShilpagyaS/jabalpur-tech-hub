@@ -3,8 +3,8 @@ import { useRef, useEffect, useState } from "react";
 import { Users, Monitor, Clock, Award } from "lucide-react";
 
 const stats = [
-  { icon: Clock, value: 15, suffix: "+", label: "Years in Jabalpur", color: "text-primary" },
-  { icon: Monitor, value: 5000, suffix: "+", label: "PCs Built & Sold", color: "text-primary" },
+  { icon: Clock, value: 30, suffix: "+", label: "Years in Jabalpur", color: "text-primary" },
+  { icon: Monitor, value: 8700, suffix: "+", label: "PCs Built & Sold", color: "text-primary" },
   { icon: Users, value: 10000, suffix: "+", label: "Happy Customers", color: "text-accent" },
   { icon: Award, value: 100, suffix: "%", label: "Genuine Products", color: "text-accent" },
 ];

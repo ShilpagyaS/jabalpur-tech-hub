@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, MessageCircle, Menu, X, Cpu } from "lucide-react";
+import { Phone, MessageCircle, Menu, X } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/919827065718?text=Hi%20Microland%2C%20I%27m%20interested%20in%20your%20computers.";
 const PHONE_URL = "tel:+919827065718";
@@ -19,8 +19,14 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/5">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+
+        {/* 🔥 LOGO FIX */}
         <a href="#" className="flex items-center gap-2 group">
-          <Cpu className="w-7 h-7 text-primary" strokeWidth={1.5} />
+          <img
+            src="/LOGO.jpeg"
+            alt="Microland Computers"
+            className="h-9 w-auto object-contain"
+          />
           <span className="font-bold text-lg tracking-tight text-foreground">
             Micro<span className="text-primary">land</span>{" "}
             <span className="text-accent">Computers</span>
@@ -89,10 +95,18 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="flex gap-3 pt-2">
-                <a href={PHONE_URL} className="flex-1 flex items-center justify-center gap-2 glass rounded-lg py-3 text-sm font-medium">
+                <a
+                  href={PHONE_URL}
+                  className="flex-1 flex items-center justify-center gap-2 glass rounded-lg py-3 text-sm font-medium"
+                >
                   <Phone className="w-4 h-4" strokeWidth={1.5} /> Call Now
                 </a>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 bg-primary text-primary-foreground rounded-lg py-3 text-sm font-semibold">
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 flex items-center justify-center gap-2 bg-primary text-primary-foreground rounded-lg py-3 text-sm font-semibold"
+                >
                   <MessageCircle className="w-4 h-4" strokeWidth={1.5} /> WhatsApp
                 </a>
               </div>
