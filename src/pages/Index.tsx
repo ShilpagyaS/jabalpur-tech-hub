@@ -19,6 +19,10 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <HeroSection />
+
+      {/* 🔥 MOVED GALLERY UP */}
+      <Gallery />
+
       <BrandsCarousel />
       <StatsCounter />
       <SolutionModules />
@@ -26,7 +30,6 @@ const Index = () => {
       <DealsBanner />
       <PCConfigurator />
       <WhyChooseUs />
-      <Gallery />
       <Testimonials />
       <StoreContact />
       <Footer />
